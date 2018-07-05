@@ -6,6 +6,13 @@ url: "https://blog.shadowhand.me"
 twitter_username: shadowhand
 github_username:  shadowhand
 
+# Enable post excerpts
+show_excerpts: false
+
+# Enable comments
+disqus:
+  shortname: shadowhand
+
 # Style
 markdown: kramdown
 theme: minima
