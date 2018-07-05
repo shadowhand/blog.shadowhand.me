@@ -6,7 +6,12 @@ url: "https://blog.shadowhand.me"
 twitter_username: shadowhand
 github_username:  shadowhand
 
-# Build settings
+# Style
 markdown: kramdown
 theme: minima
+
+# URLs
 permalink: /:title/
+
+# Excludes
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
