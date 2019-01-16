@@ -70,7 +70,7 @@ And there is the source of the disagreement. I believe that we can, and *should*
 
 At this point, I think it would be useful to explain how the middleware lifecycle works, as I and others choose to implement it. Here is a very succinct diagram that comes from [Slim Framework](http://www.slimframework.com/docs/concepts/middleware.html): 
 
-![Middleware Diagram](http://www.slimframework.com/docs/images/middleware.png)
+![Middleware Diagram](//www.slimframework.com/docs/images/middleware.png)
 
 In terms of code, the basic premise is that you create a request instance, a response instance, and pass them into some kind of dispatcher that holds you middleware. In [Equip](https://equipframework.readthedocs.io/en/latest/) the middleware is added via an application builder, in the `index.php` front controller:
 
